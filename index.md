@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+# MovieNut
 
-You can use the [editor on GitHub](https://github.com/ericdke/MovieNut/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+With MovieNut you can search for films and post reviews to [Pnut.io](http://pnut.io/)'s Movie Club channel. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You can also interact with other user's posts and reviews.
 
-### Markdown
+## Get It
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Android version on the Google Play Store](https://play.google.com/store/apps/details?id=io.aya.movienut)
 
-```markdown
-Syntax highlighted code block
+[macOS version direct link](https://www.dropbox.com/s/b9jebn1luj1bmq6/MovieNut_107_Catalina.zip?dl=0)
 
-# Header 1
-## Header 2
-### Header 3
+## Screenshots
 
-- Bulleted
-- List
+### Android
 
-1. Numbered
-2. List
+### macOS
 
-**Bold** and _Italic_ and `Code` text
+## How Does It Work
 
-[Link](url) and ![Image](src)
-```
+- Log in with your Pnut account
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Create A Movie Review
 
-### Jekyll Themes
+- Tap/click the "Search" menu
+- Type (part of) a movie title
+- Type the year of its release (optional)
+- Select the movie in the candidates list
+- Rate the movie
+- Write a review
+- Post to Pnut
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ericdke/MovieNut/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Browse The Movie Club Channel
 
-### Support or Contact
+- Tap/click on the Movie Club menu
+- Browse messages and reviews
+- Open discussion threads
+- Post messages
+- Reply to messages
+- Search for reviews (yours/all)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

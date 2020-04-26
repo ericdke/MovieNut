@@ -8,13 +8,22 @@ You can also interact with other user's posts and reviews.
 
 [Android version on the Google Play Store](https://play.google.com/store/apps/details?id=io.aya.movienut)
 
-[macOS version direct link](https://www.dropbox.com/s/b9jebn1luj1bmq6/MovieNut_107_Catalina.zip?dl=0)
+[macOS 10.15+ version direct link](MovieNut_107_Catalina.zip)
 
 ## Screenshots
 
 ### Android
 
+![MovieNut Android Screenshot 1](movienut_android_1.png)
+![MovieNut Android Screenshot 2](movienut_android_2.png)
+![MovieNut Android Screenshot 3](movienut_android_3.png)
+
 ### macOS
+
+![MovieNut macOS Screenshot 1](movienut_mac_1.png)
+![MovieNut macOS Screenshot 2](movienut_mac_2.png)
+![MovieNut macOS Screenshot 3](movienut_mac_3.png)
+![MovieNut macOS Screenshot 4](movienut_mac_4.png)
 
 ## How Does It Work
 

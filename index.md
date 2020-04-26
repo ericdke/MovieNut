@@ -6,6 +6,8 @@ You can also interact with other user's posts and reviews.
 
 ## Get It
 
+It's free!
+
 [Android version on the Google Play Store](https://play.google.com/store/apps/details?id=io.aya.movienut)
 
 [macOS 10.15+ version direct link](MovieNut_107_Catalina.zip)

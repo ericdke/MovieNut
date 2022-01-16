@@ -71,6 +71,6 @@ See `LICENSE.md` for more information.
 
 Pnut    - [@ericd](https://pnut.io/@ericd)
 
-Twitter - [@ritsz](https://twitter.com/twitter_handle)
+Twitter - [@ritsz](https://twitter.com/Ritsz)
 
 [product-screenshot]: /images/mnios.jpg

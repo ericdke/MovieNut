@@ -35,12 +35,12 @@ It will never be released on the App Store, though - if you want it, build it!
 As it was coded hackathon-style, it's far from perfect, UI-wise and code-wise. Contributions, fixes, requests, bug reports, are welcome. :)
 
 
-### Made With
+## Made With
 
 Xcode 12, Swift, SwiftUI, and bits of UIKit
 
 
-### Instructions
+## Instructions
 
 Create a new Xcode project with Swift selected as language. 
 

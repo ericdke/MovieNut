@@ -47,7 +47,7 @@ Runs on iOS 15+ on iPhone and iPad
 
 ## Instructions
 
-Create a new Xcode project with Swift selected as language.
+Create a new Xcode project with Swift and SwiftUI.
 
 Setup Deployment Info with iOS15 for iPhone+iPad, no Main Interface, enable all device orientations.
 

@@ -42,7 +42,9 @@ Xcode 12, Swift, SwiftUI, and bits of UIKit
 
 ### Instructions
 
-You can build it in Xcode and run it on your own iOS devices.
+Create a new Xcode project with Swift selected as language. 
+
+Clone the repo into the project.
 
 Add a `MovieNut/Constants/Credentials.swift` file containing this:
 
@@ -53,7 +55,10 @@ enum Credentials {
 }
 ```
 
-Grab an API key from the tmdb site and a dev client id on Pnut (both free) and you're ready to go.
+Grab an API key from the tmdb site and a dev client id on Pnut (both free).
+
+You're ready to go! Build and install on your iOS device.
+
 
 <!-- LICENSE -->
 ## License
@@ -65,6 +70,7 @@ See `LICENSE.md` for more information.
 ## Contact
 
 Pnut    - [@ericd](https://pnut.io/@ericd)
+
 Twitter - [@ritsz](https://twitter.com/twitter_handle)
 
 [product-screenshot]: /images/mnios.jpg

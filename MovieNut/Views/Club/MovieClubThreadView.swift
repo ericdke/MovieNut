@@ -4,9 +4,7 @@ struct MovieClubThreadView: View {
     
     @EnvironmentObject var pnutViewModel: PnutViewModel
     @EnvironmentObject var uiViewModel: UIViewModel
-    
-    // TODO: unfinished
-    
+
     var body: some View {
         GeometryReader { proxy in
             VStack(alignment: .center, spacing: 0) {
@@ -27,12 +25,9 @@ struct MovieClubThreadView: View {
         .onAppear {
             if pnutViewModel.isLoggedIn == false {
                 pnutViewModel.showLoginFromClub = true
-            } else {
-//                pnutViewModel.startThreadTimer()
             }
         }
         .onDisappear {
-//            pnutViewModel.stopThreadTimer()
             pnutViewModel.threadId  = nil
         }
     }

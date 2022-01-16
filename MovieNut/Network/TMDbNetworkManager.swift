@@ -62,17 +62,6 @@ final class TMDbNetworkManager {
         }
     }
     
-//    func getMovieCredits(id: Int) async -> Result<MovieCreditsResult, MNError> {
-//        do {
-//            let request = URLRequest(url: movieCredits(id: id))
-//            let (data, _) = try await URLSession.shared.data(for: request)
-//            let result = try JSONDecoder().decode(MovieCreditsResult.self, from: data)
-//            return .success(result)
-//        } catch {
-//            return .failure(.data(message: error.localizedDescription))
-//        }
-//    }
-    
     func getMovieCredits(id: Int, completion: @escaping (Result<MovieCreditsResult, MNError>)->()) {
         let task = URLSession.shared.dataTask(with: movieCredits(id: id)) { data, response, error in
             if let error = error {

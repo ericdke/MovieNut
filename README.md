@@ -40,9 +40,18 @@ As it was coded hackathon-style, it's far from perfect, UI-wise and code-wise. C
 Xcode 12, Swift, SwiftUI, and bits of UIKit
 
 
+## Compatibility
+
+Runs on iOS 15+ on iPhone and iPad
+
+
 ## Instructions
 
-Create a new Xcode project with Swift selected as language. 
+Create a new Xcode project with Swift selected as language.
+
+Setup Deployment Info with iOS15 for iPhone+iPad, no Main Interface, enable all device orientations.
+
+Install the [Kingfisher](https://github.com/onevcat/Kingfisher) library via SPM.
 
 Clone the repo into the project.
 

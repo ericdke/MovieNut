@@ -128,7 +128,6 @@ struct Movie: Codable {
             obj = ["text": text, "raw": [rt]]
         }
         return try! JSONSerialization.data(withJSONObject: obj, options: [])
-        //return String(data: data, encoding: .utf8)!
     }
     
 }

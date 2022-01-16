@@ -5,8 +5,6 @@ struct MovieClubThreadScroll: View {
     let proxy: GeometryProxy
     @EnvironmentObject var pnutViewModel: PnutViewModel
     
-    // TODO: load more thread
-    
     var body: some View {
         ScrollView {
             LazyVStack {
@@ -18,18 +16,12 @@ struct MovieClubThreadScroll: View {
                                    proxy: proxy)
                             .inColoredCell(color: Color(index))
                             .padding(.top)
-//                            .onAppear {
-//                                pnutViewModel.loadMoreThread(after: index)
-//                            }
                     } else {
                         MessageCell(message: pnutViewModel.thread[index],
                                     style: ContentStyle(index),
                                     proxy: proxy)
                             .inColoredCell(color: Color(index))
                             .padding(.top)
-//                            .onAppear {
-//                                pnutViewModel.loadMoreThread(after: index)
-//                            }
                     }
                 }
             }

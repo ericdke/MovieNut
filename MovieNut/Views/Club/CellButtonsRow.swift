@@ -46,7 +46,6 @@ struct CellButtonsRow: View {
             Spacer()
             
             Button {
-                // TODO: add mention(s)
                 pnutViewModel.selectedReplyTarget = SelectedReplyTarget(target: message, style: style)
                 pnutViewModel.writeReplyText = ""
                 if pnutViewModel.threadId == nil {

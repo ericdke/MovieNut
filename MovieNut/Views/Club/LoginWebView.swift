@@ -4,9 +4,9 @@ import WebKit
 struct LoginWebView: UIViewRepresentable {
 
     let origin: LoginOrigin
-    let helper = WebViewHelper()
+    private let helper = WebViewHelper()
     
-    let url = URL(string: "https://pnut.io/oauth/authenticate?client_id=\(Credentials.clientId)&redirect_uri=movienut://auth&scope=public_messages:io.pnut.core.chat,write_post&response_type=token&simple_login=1")!
+    private let url = URL(string: "https://pnut.io/oauth/authenticate?client_id=\(Credentials.clientId)&redirect_uri=movienut://auth&scope=public_messages:io.pnut.core.chat,write_post&response_type=token&simple_login=1")!
     
     private let js = """
     var inputs = document.getElementsByTagName('button');

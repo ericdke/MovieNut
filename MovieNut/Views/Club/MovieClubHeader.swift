@@ -6,8 +6,6 @@ struct MovieClubHeader: View {
     @EnvironmentObject var pnutViewModel: PnutViewModel
     @EnvironmentObject var uiViewModel: UIViewModel
     
-    // TODO: show reviews
-    
     var body: some View {
         Group {
             NavigationLink(destination: LoginWebView(origin: .club),
@@ -17,14 +15,6 @@ struct MovieClubHeader: View {
             .navigationTitle("Movie Club")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-//                ToolbarItemGroup(placement: .navigationBarLeading) {
-//                    Button {
-                //
-//                    } label: {
-//                        Image(systemName: "rectangle.and.text.magnifyingglass")
-//                            .resizable()
-//                    }
-//                }
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button {
                         uiViewModel.showWritePost.toggle()

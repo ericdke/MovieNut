@@ -46,10 +46,12 @@ You can build it in Xcode and run it on your own iOS devices.
 
 Add a `MovieNut/Constants/Credentials.swift` file containing this:
 
-  enum Credentials {
-      static let tmdbAPIKey = "your TMDB api key"
-      static let clientId = "your PNUT client id"
-  }
+```swift
+enum Credentials {
+    static let tmdbAPIKey = "your TMDB api key"
+    static let clientId = "your PNUT client id"
+}
+```
 
 Grab an API key from the tmdb site and a dev client id on Pnut (both free) and you're ready to go.
 
